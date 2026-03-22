@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Visualizations</title>
+    <title>PAC2 - Visualización de datos</title>
 </head>
 <body>
-    <h1>Data Visualizations</h1>
+    <h1>PAC2 - Visualización de datos</h1>
     <div>
         <h2>1. Heatmap - Correlación Sectores con SP500</h2>
+        <p>Este mapa de calor matricial es una técnica de visualización bidimensional que representa el valor de correlación a lo largo del tiempo de los diferentes sectores con el SP500 mediante una escala de colores. La visualización permite identificar rápidamente patrones de comportamiento y clusters de activos que se mueven de forma síncrona, utilizando una paleta de colores divergente (azul-blanco-rojo) para distinguir entre correlaciones positivas y negativas. Es una herramienta fundamental en el análisis financiero para resumir grandes matrices de datos que serían difíciles de interpretar en una tabla convencional.</p>
         <img src="Heatmap%20-%20Correlación%20Sectores%20con%20SP500.png" alt="Heatmap Visualization">
-        <p>This heatmap visualizes the correlation between various sectors and the SP500 index. It provides insights into how different sectors perform concerning the overall market.</p>
-    </div>
+     </div>
     <div>
         <h2>2. Voronoi - Altitud estaciones metereológicas</h2>
+        <p>El diagrama de Voronoi es una forma de particionar el espacio en regiones (celdas) basadas en la distancia respecto a un conjunto específico de puntos o "semillas". Cada celda rodea a una estación meteorológica y contiene todos los puntos del mapa que están más cerca de esa estación que de cualquier otra. En este caso, la técnica se utiliza para interpolar datos puntuales, permitiendo visualizar gradientes de altitud en áreas no monitorizadas directamente. Para garantizar una interpretación precisa de los desniveles, se ha empleado una escala magma puesto que es cromáticamente uniforme y por tanto accesible para personas con daltonismo.</p>
         <img src="Voronoi%20-%20Altitud%20estaciones%20metereológicas.png" alt="Voronoi Visualization">
-        <p>This Voronoi diagram displays the altitude at various meteorological stations, helping to understand how altitude varies across different regions.</p>
     </div>
     <div>
         <h2>3. Tiles Grid Map - Presión fiscal en paises europeos</h2>
+        <p>Un Tile Grid Map (mapa de rejilla de teselas) es una representación donde las áreas geográficas se abstraen en formas uniformes de igual tamaño, generalmente cuadrados, dispuestas para aproximarse a su posición real. El objetivo es eliminar el sesgo visual de los mapas tradicionales, donde los países grandes parecen tener más peso que los pequeños. Al otorgar el mismo tamaño a cada nación, se facilita una comparativa justa de la presión fiscal, permitiendo que países de pequeña extensión geográfica, pero gran relevancia económica, sean claramente visibles. Para mejorar la legibilidad, cada tesela incluye etiquetas con el código del país y el valor numérico exacto del porcentaje sobre el PIB.</p>
         <img src="Tiles%20Grid%20Map%20-%20Presión%20fiscal%20en%20paises%20europeos.png" alt="Tiles Grid Map Visualization">
-        <p>This tiles grid map shows the fiscal pressure in various European countries, offering a comparative view of economic conditions.</p>
     </div>
 </body>
 </html>
